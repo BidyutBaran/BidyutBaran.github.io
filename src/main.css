@@ -308,3 +308,24 @@ hr {
   background-color: rgba(45, 45, 45, 0.5);
   transition: background-color 2s ease 0s;
 }
+
+#home ul.network-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+#home .network-icon li {
+  margin-right: 10px;
+}
+
+#home .network-icon li:last-of-type {
+  margin-right: 0;
+}
+
+#home .network-icon li:hover {
+  transform: scale(1.2);
+}
